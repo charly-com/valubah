@@ -3,11 +3,13 @@ import valuebah from "../assets/valubah.png";
 
 const Nav = () => {
   return (
-    <header className="bg-green  w-full">
-      <nav className="flex justify-between items-center py-7 px-[120px] ">
-      
-        < img src={valuebah}/>
-        <ul className="flex gap-10 items-center  ">
+    <header className="bg-green justify-center items-center flex flex-cols  w-full ">
+      <nav className="flex justify-between space-x-[45%] items-center py-7 w-11/12 ">
+        <span className="flex w-2/12">
+            <img src={valuebah}/>
+        </span>
+        <ul className="flex justify-between gap-[5%]  items-center  w-full z-[1]">
+         
           <li>
             <a
               className="font-montserrat text-[#FFFFFF]  leading-normal text-lg"

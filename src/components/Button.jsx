@@ -1,9 +1,20 @@
+import PropTypes from "prop-types";
 
-
-const Button = () => {
+const Button = ({ backgroundColor }) => {
   return (
-    <button className="bg-ash px-4 py-2 rounded font-'Montserrat">Get Started</button>
-  )
-}
+    <button
+      className={`${
+        backgroundColor ? `${backgroundColor}` : "bg-ash"
+      } px-4 py-2 rounded font-montserrat`}
+    >
+      Get Started
+    </button>
+  );
+};
 
-export default Button
+Button.propTypes = {
+  backgroundColor: PropTypes.string,
+};
+
+export default Button;
+
