@@ -33,7 +33,9 @@ const Product = () => {
       </div>
       <div className="flex justify-between py-[50px]">
         <div className="flex flex-col justify center  pt-20 items-center w-[35%] h-[50%]">
-          <p className="font-montserrat px-5 py-3 w-full font-semibold font-3xl text-[24px]">Life Insurance</p>
+          <p className="font-montserrat px-5 py-3 w-full font-semibold font-3xl text-[24px]">
+            Life Insurance
+          </p>
           <p className="font-montserrat px-5  w-full text-[20px] font-normal text-[#000000]">
             Life Insurance That Matters Protect your loved ones futures with our
             reliable life insurance coverage, ensuring financial stability even
@@ -44,11 +46,11 @@ const Product = () => {
           <img src={family} />
         </div>
       </div>
-      <div className="flex justify-between py-[50px]">
+      <div className="flex justify-between py-[50px] pb-[150px]">
         <div className="mr-[80px]">
           <img src={health} />
         </div>
-        <div className="flex flex-col justify center p-10 pt-20 items-center w-[40%] h-[50%] ">
+        <div className="flex flex-col justify center p-10 pt-20  items-center w-[40%] h-[50%] ">
           <p className="font-montserrat px-5 py-3 w-full font-semibold font-3xl text-[24px]">
             Health and Accident Protection
           </p>
@@ -61,12 +63,14 @@ const Product = () => {
       </div>
       <div className="bg-ash w-full flex items-center justify-center pb-10 rounded-t-xl">
         <div className="flex flex-col justify-center items-center pt-20   box-border h-50 w-100 ">
-          <p className="text-5xl font-semibold items-center text-center font-montserrat pb-5 w-[80%]">Join Now to Access Financial Confidence</p>
-          <p className="font-montserrat w-[40%] text-center pb-10">
+          <p className="text-5xl font-semibold items-center text-center font-montserrat pb-5 w-[80%]">
+            Join Now to Access Financial Confidence
+          </p>
+          <p className="font-montserrat w-[40%] text-center pb-10 font-normal text-base leading-6">
             Join Valubah today and take the first step towards securing your
             future.
           </p>
-          <Button backgroundColor={"bg-green"} className=""/>
+          <Button backgroundColor={"bg-green"} className="" />
         </div>
       </div>
     </section>
