@@ -1,6 +1,7 @@
 import icon from "../assets/icon.png";
 import icon2 from "../assets/icon2.png";
 import icon3 from "../assets/icon3.png";
+import { BiUpArrowAlt } from "react-icons/bi";
 
 const Main = () => {
   return (
@@ -20,11 +21,17 @@ const Main = () => {
             <p className="text-[#3B3B3B] font-montserrat font-medium text-base leading-[21px] py-2">
               Registered Customers
             </p>
-            <div>
-              <p>720.2k</p>
-              <p>2.9%</p>
+            <div className="flex justify-between items-center">
+              <p className="text-[#3B3B3B] font-montserrat font-semibold text-xl leading-[28.8px] pb-4">
+                720.2k
+              </p>
+              <p className="rounded-full  py-1 px-2 bg-[#E0FFE0] font-montserrat flex font-medium text-xs leading-[18px] text-[#146614]">
+                <BiUpArrowAlt /> 2.9%
+              </p>
             </div>
-            <p>Compared to 699k last week</p>
+            <p className="text-[#6C6C6C] font-montserrat font-normal text-sm leading-4 ">
+              Compared to 699k last week
+            </p>
           </div>
         </div>
         <div className="border border-r-amber-50 w-[24%] h-[180px] rounded-md">
@@ -33,11 +40,17 @@ const Main = () => {
             <p className="text-[#3B3B3B] font-montserrat font-medium text-base leading-[21px] py-2">
               Active Customers
             </p>
-            <div>
-              <p>720.2k</p>
-              <p>2.9%</p>
+            <div className="flex justify-between items-center">
+              <p className="text-[#3B3B3B] font-montserrat font-semibold text-xl leading-[28.8px] pb-4">
+                645.7k
+              </p>
+              <p className="rounded-full  py-1 px-2 bg-[#E0FFE0] font-montserrat flex font-medium text-xs leading-[18px] text-[#146614]">
+                <BiUpArrowAlt /> 2.9%
+              </p>
             </div>
-            <p>Compared to 699k last week</p>
+            <p className="text-[#6C6C6C] font-montserrat font-normal text-sm leading-4">
+              Compared to 699k last week
+            </p>
           </div>
         </div>
         <div className="border border-r-amber-50 w-[24%] h-[180px] rounded-md">
@@ -46,11 +59,17 @@ const Main = () => {
             <p className="text-[#3B3B3B] font-montserrat font-medium text-base leading-[21px] py-2">
               Active Customers
             </p>
-            <div>
-              <p>720.2k</p>
-              <p>2.9%</p>
+            <div className="flex justify-between items-center">
+              <p className="text-[#3B3B3B] font-montserrat font-semibold text-xl leading-[28.8px] pb-4">
+                326.7k
+              </p>
+              <p className="rounded-full  py-1 px-2 bg-[#E0FFE0] font-montserrat flex font-medium text-xs leading-[18px] text-[#146614]">
+                <BiUpArrowAlt /> 2.9%
+              </p>
             </div>
-            <p>Compared to 699k last week</p>
+            <p className="text-[#6C6C6C] font-montserrat font-normal text-sm leading-4">
+              Compared to 699k last week
+            </p>
           </div>
         </div>
         <div className="border border-r-amber-50 w-[24%] h-[180px] rounded-md">
@@ -59,11 +78,17 @@ const Main = () => {
             <p className="text-[#3B3B3B] font-montserrat font-medium text-base leading-[21px] py-2">
               Active Customers
             </p>
-            <div>
-              <p>720.2k</p>
-              <p>2.9%</p>
+            <div className="flex justify-between items-center">
+              <p className="text-[#3B3B3B] font-montserrat font-semibold text-xl leading-[28.8px] pb-4">
+                319k
+              </p>
+              <p className="rounded-full  py-1 px-2 bg-[#FEF1F2] font-montserrat flex font-medium text-xs leading-[18px] text-[#E02D3C]">
+                <BiUpArrowAlt /> 2.9%
+              </p>
             </div>
-            <p>Compared to 699k last week</p>
+            <p className="text-[#6C6C6C] font-montserrat font-normal text-sm leading-4">
+              Compared to 699k last week
+            </p>
           </div>
         </div>
       </div>
