@@ -4,7 +4,9 @@ import logout from "../assets/logout.png";
 
 const Sidebar = () => {
   return (
-    <div>
+    <div  >
+        <div >
+
       <div className=" flex flex-col w-full h-screen bg-[#FFFFFF] border border-solid border-[#EDEBE9] ">
         <div className="flex flex-col w-full gap-2">
           <p className="font-montserrat font-bold text-2xl leading-[1.2] text-[#146614] py-10 px-10">
@@ -23,6 +25,7 @@ const Sidebar = () => {
           <img src={logout} />
         </div>
       </div>
+        </div>
     </div>
   );
 };

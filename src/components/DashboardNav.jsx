@@ -3,7 +3,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 
 const DashboardNav = () => {
   return (
-    <div className="bg-white w-full p-4 border border-solid border-[#EDEBE9]">
+    <div className="bg-white w-full sticky top-0 p-4 border border-solid border-[#EDEBE9]">
       <div className="flex justify-between">
         <p className="text-black font-montserrat font-semibold text-lg leading-6">
           Dashboard
