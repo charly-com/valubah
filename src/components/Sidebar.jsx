@@ -5,16 +5,20 @@ import logout from "../assets/logout.png";
 const Sidebar = () => {
   return (
     <div>
-      <div className="flex flex-col w-1/6 h-screen bg-[#FFFFFF] border border-solid border-[#EDEBE9] ">
-        <div className="flex flex-col gap-2">
+      <div className=" flex flex-col w-full h-screen bg-[#FFFFFF] border border-solid border-[#EDEBE9] ">
+        <div className="flex flex-col w-full gap-2">
           <p className="font-montserrat font-bold text-2xl leading-[1.2] text-[#146614] py-10 px-10">
             Valubah
           </p>
           <div className="flex justify-center items-center">
+            <div className="w-[60%] h-10 bg-[#E0FFE0] flex">
+
             <img src={dashboard} />
+            <p> Dashboard</p>
+            </div>
           </div>
         </div>
-        <div className="bottom-0">
+        <div className="absolute bottom-0 ">
           <img src={settings} />
           <img src={logout} />
         </div>
