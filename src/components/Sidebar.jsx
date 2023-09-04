@@ -1,4 +1,4 @@
-import dashboard from "../assets/dashboard.png";
+import {LuLayoutDashboard} from "react-icons/lu";
 import settings from "../assets/settings.png";
 import logout from "../assets/logout.png";
 
@@ -11,10 +11,10 @@ const Sidebar = () => {
             Valubah
           </p>
           <div className="flex justify-center items-center">
-            <div className="w-[60%] h-10 bg-[#E0FFE0] flex">
+            <div className="w-[80%] h-10 bg-[#E0FFE0] flex self-start rounded items-center pl-4">
 
-            <img src={dashboard} />
-            <p> Dashboard</p>
+            <LuLayoutDashboard className="" />
+            <p className="px-2 font-montserrat font-medium text-base leading-6"> Dashboard</p>
             </div>
           </div>
         </div>
