@@ -1,5 +1,6 @@
 import Sidebar from "../components/Sidebar"
 import DashboardNav from "../components/DashboardNav"
+import Main from "../components/Main"
 
 const Dashboard = () => {
   return (
@@ -11,6 +12,7 @@ const Dashboard = () => {
 
         <div className="w-[80vw] min-h-screen">
             <DashboardNav />
+            <Main />
         </div>
         
     </div>
