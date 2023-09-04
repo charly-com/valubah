@@ -13,8 +13,8 @@ import {
 const Charts = () => {
     return (
         <LineChart
-        width={500}
-        height={300}
+        width={800}
+        height={400}
         data={data}
         margin={{
           top: 5,
@@ -23,18 +23,18 @@ const Charts = () => {
           bottom: 5
         }}
       >
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name" />
+        <CartesianGrid horizontal={true} vertical={false} />
+        <XAxis dataKey="name" interval={0} />
         <YAxis />
         <Tooltip />
         <Legend />
         <Line
           type="monotone"
           dataKey="pv"
-          stroke="#8884d8"
+          stroke="#146614"
           activeDot={{ r: 8 }}
         />
-        <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+        <Line type="monotone" dataKey="uv" stroke="#F4AFA7" />
       </LineChart>
     )
 }

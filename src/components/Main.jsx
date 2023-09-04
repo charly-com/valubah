@@ -15,7 +15,7 @@ const Main = () => {
           Good morning, Olamide
         </p>
       </div>
-      <div className="flex justify-between pt-5">
+      <div className="flex justify-between py-5">
         <div className="border border-r-amber-50 w-[24%] h-[180px] rounded-md">
           <div className="p-3">
             <img src={icon} />
@@ -93,7 +93,13 @@ const Main = () => {
           </div>
         </div>
       </div>
+      <div className="pt-5 border border-r-amber-50 w-[75%] rounded-lg">
+        <div className="flex gap-2 pb-20 px-7 ">
+            <p className="font-montserrat font-semibold text-base text-[#272833] leading-[27px]">Subscription Trend</p>
+            <input type="date" className="border rounded" />
+        </div>
       <Charts />
+      </div>
     </div>
   );
 };
