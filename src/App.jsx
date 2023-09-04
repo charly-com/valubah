@@ -1,18 +1,16 @@
-import Nav from "./components/Nav";
-import Hero from "./sections/Hero";
-import Product from "./sections/Product";
-import Footer from "./sections/Footer";
+import Home from './sections/Home';
+import Dashboard from './sections/Dashboard';
+
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 function App() {
   return (
-    <>
-      <main className="flex w-full flex-col items-center justify-center">
-        <Nav />
-        <Hero />
-        <Product />
-      </main>
-      <Footer />
-    </>
+   <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </Router>
   );
 }
 

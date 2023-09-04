@@ -8,7 +8,7 @@ const Nav = () => {
         <span className="flex w-2/12">
             <img src={valuebah}/>
         </span>
-        <ul className="flex justify-between space-x-1  items-center  w-full z-[1]">
+        <ul className="flex justify-between   items-center  w-full z-[1]">
          
           <li>
             <a
