@@ -2,6 +2,7 @@ import icon from "../assets/icon.png";
 import icon2 from "../assets/icon2.png";
 import icon3 from "../assets/icon3.png";
 import { BiUpArrowAlt } from "react-icons/bi";
+import Charts from "./Charts";
 
 const Main = () => {
   return (
@@ -92,6 +93,7 @@ const Main = () => {
           </div>
         </div>
       </div>
+      <Charts />
     </div>
   );
 };
