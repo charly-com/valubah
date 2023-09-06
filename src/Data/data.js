@@ -73,4 +73,12 @@ const data = [
   },
 ];
 
+const data2 = [
+    { name: 'Male', value: 400 },
+    { name: 'Female', value: 300 },
+  
+  ];
+
 export default data;
+
+export { data2 };

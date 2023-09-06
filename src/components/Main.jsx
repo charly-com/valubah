@@ -3,6 +3,10 @@ import icon2 from "../assets/icon2.png";
 import icon3 from "../assets/icon3.png";
 import { BiUpArrowAlt } from "react-icons/bi";
 import Charts from "./Charts";
+// import PieCharts from "./PieCharts";
+import pie from "../assets/pie.png";
+import man from "../assets/man.png";
+import woman from "../assets/woman.png";
 
 const Main = () => {
   return (
@@ -93,12 +97,63 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <div className="pt-5 border border-r-amber-50 w-[75%] rounded-lg">
-        <div className="flex gap-2 pb-20 px-7 ">
-            <p className="font-montserrat font-semibold text-base text-[#272833] leading-[27px]">Subscription Trend</p>
-            <input type="date" className="border rounded" />
+      <div className="flex ">
+        <div className="pt-5  border border-r-amber-50 w-[75%] rounded-lg">
+          <div className="flex items-center gap-2 pb-20 px-7 ">
+            <p className="font-montserrat font-semibold text-base text-[#272833] leading-[27px]">
+              Subscription Trend
+            </p>
+            <input
+              type="text"
+              placeholder="4th August, 2023"
+              className="w-[161px] h-[35px] border rounded font-montserrat font-medium text-base text-[#6C6C6C] leading-[21px] p-2"
+            />
+          </div>
+          <Charts />
+
+          <div className="flex gap-2 pb-2 px-7 items-center">
+            <div className="bg-[#146614] w-4 h-4  rounded-3"></div>
+            <p className="text-[#727E8F] font-montserrat font-medium text-base leading-6">
+              Personal Subscribers{" "}
+            </p>
+            <div className="bg-[#F4AFA7] w-4 h-4  rounded-3"></div>
+            <p className="text-[#727E8F] font-montserrat font-medium  text-base leading-6">
+              Business Subscribers
+            </p>
+          </div>
         </div>
-      <Charts />
+        <div className="pl-4  ">
+          <div className="w-[264px] h-[35%] border border-r-dark-50 rounded-lg mb-5 ">
+            <p className="text-[#6C6C6C] font-montserrat font-medium text-base leading-6 px-3 pt-3">
+              {" "}
+              Gender Distribution
+            </p>
+            <div className="flex justify-center items-center py-5 ">
+              <img src={pie} width={170} height={600} />
+            </div>
+            <div className="flex justify-center items-center  ">
+              <img src={man} />
+              <p className="text-[#3B3B3B] font-montserrat font-medium text-base leading-6">
+                Male
+              </p>
+              <img src={woman} />
+              <p className="text-[#3B3B3B] font-montserrat font-medium text-base leading-6">
+                Female
+              </p>
+            </div>
+          </div>
+          <div className="w-[264px] h-[60%] border border-r-dark-50 rounded-lg pl-4">
+            <p className="text-[#6C6C6C] font-montserrat font-medium text-base leading-6">
+              Top Customers This Week
+            </p>
+            <ol className="list-decimal pl-4 space-y-4 font-montserrat py-5" >
+              <li>First item</li>
+              <li>Second item</li>
+              <li>Third item</li>
+              <li>Fourth item</li>
+            </ol>
+          </div>
+        </div>
       </div>
     </div>
   );
